@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4120B83821B2F3DF003105A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B83721B2F3DF003105A3 /* AppDelegate.swift */; };
+		4120B83A21B2F3DF003105A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B83921B2F3DF003105A3 /* GameViewController.swift */; };
+		4120B83D21B2F3DF003105A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4120B83B21B2F3DF003105A3 /* Main.storyboard */; };
+		4120B84021B2F3DF003105A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4120B83E21B2F3DF003105A3 /* LaunchScreen.storyboard */; };
+		4120B84521B2F3DF003105A3 /* driftwatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4120B84421B2F3DF003105A3 /* driftwatch.app */; };
+		4120B84B21B2F3DF003105A3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4120B84921B2F3DF003105A3 /* Interface.storyboard */; };
+		4120B85221B2F3DF003105A3 /* driftwatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4120B85121B2F3DF003105A3 /* driftwatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4120B85721B2F3DF003105A3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B85621B2F3DF003105A3 /* InterfaceController.swift */; };
+		4120B85921B2F3DF003105A3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B85821B2F3DF003105A3 /* ExtensionDelegate.swift */; };
+		4120B85B21B2F3DF003105A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82C21B2F3DE003105A3 /* Actions.sks */; };
+		4120B85C21B2F3DF003105A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82D21B2F3DE003105A3 /* GameScene.sks */; };
+		4120B85D21B2F3DF003105A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82D21B2F3DE003105A3 /* GameScene.sks */; };
+		4120B85E21B2F3DF003105A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B82E21B2F3DE003105A3 /* GameScene.swift */; };
+		4120B85F21B2F3DF003105A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B82E21B2F3DE003105A3 /* GameScene.swift */; };
+		4120B86021B2F3DF003105A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82F21B2F3DF003105A3 /* Assets.xcassets */; };
+		4120B86121B2F3DF003105A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82F21B2F3DF003105A3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4120B84621B2F3DF003105A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4120B82721B2F3DE003105A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4120B84321B2F3DF003105A3;
+			remoteInfo = "driftwatch watchOS App";
+		};
+		4120B85321B2F3DF003105A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4120B82721B2F3DE003105A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4120B85021B2F3DF003105A3;
+			remoteInfo = "driftwatch watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4120B86721B2F3DF003105A3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4120B85221B2F3DF003105A3 /* driftwatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4120B86B21B2F3DF003105A3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4120B84521B2F3DF003105A3 /* driftwatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4120B82C21B2F3DE003105A3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4120B82D21B2F3DE003105A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4120B82E21B2F3DE003105A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4120B82F21B2F3DF003105A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4120B83421B2F3DF003105A3 /* driftwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driftwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4120B83721B2F3DF003105A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4120B83921B2F3DF003105A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4120B83C21B2F3DF003105A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4120B83F21B2F3DF003105A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4120B84121B2F3DF003105A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4120B84421B2F3DF003105A3 /* driftwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driftwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4120B84A21B2F3DF003105A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4120B84C21B2F3DF003105A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4120B85121B2F3DF003105A3 /* driftwatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "driftwatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4120B85621B2F3DF003105A3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4120B85821B2F3DF003105A3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4120B85A21B2F3DF003105A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4120B83121B2F3DF003105A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4120B84E21B2F3DF003105A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4120B82621B2F3DE003105A3 = {
+			isa = PBXGroup;
+			children = (
+				4120B82B21B2F3DE003105A3 /* driftwatch Shared */,
+				4120B83621B2F3DF003105A3 /* driftwatch iOS */,
+				4120B84821B2F3DF003105A3 /* driftwatch watchOS App */,
+				4120B85521B2F3DF003105A3 /* driftwatch watchOS App Extension */,
+				4120B83521B2F3DF003105A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4120B82B21B2F3DE003105A3 /* driftwatch Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4120B82C21B2F3DE003105A3 /* Actions.sks */,
+				4120B82D21B2F3DE003105A3 /* GameScene.sks */,
+				4120B82E21B2F3DE003105A3 /* GameScene.swift */,
+				4120B82F21B2F3DF003105A3 /* Assets.xcassets */,
+			);
+			path = "driftwatch Shared";
+			sourceTree = "<group>";
+		};
+		4120B83521B2F3DF003105A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4120B83421B2F3DF003105A3 /* driftwatch.app */,
+				4120B84421B2F3DF003105A3 /* driftwatch.app */,
+				4120B85121B2F3DF003105A3 /* driftwatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4120B83621B2F3DF003105A3 /* driftwatch iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4120B83721B2F3DF003105A3 /* AppDelegate.swift */,
+				4120B83921B2F3DF003105A3 /* GameViewController.swift */,
+				4120B83B21B2F3DF003105A3 /* Main.storyboard */,
+				4120B83E21B2F3DF003105A3 /* LaunchScreen.storyboard */,
+				4120B84121B2F3DF003105A3 /* Info.plist */,
+			);
+			path = "driftwatch iOS";
+			sourceTree = "<group>";
+		};
+		4120B84821B2F3DF003105A3 /* driftwatch watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				4120B84921B2F3DF003105A3 /* Interface.storyboard */,
+				4120B84C21B2F3DF003105A3 /* Info.plist */,
+			);
+			path = "driftwatch watchOS App";
+			sourceTree = "<group>";
+		};
+		4120B85521B2F3DF003105A3 /* driftwatch watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4120B85621B2F3DF003105A3 /* InterfaceController.swift */,
+				4120B85821B2F3DF003105A3 /* ExtensionDelegate.swift */,
+				4120B85A21B2F3DF003105A3 /* Info.plist */,
+			);
+			path = "driftwatch watchOS App Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4120B83321B2F3DF003105A3 /* driftwatch iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4120B86C21B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch iOS" */;
+			buildPhases = (
+				4120B83021B2F3DF003105A3 /* Sources */,
+				4120B83121B2F3DF003105A3 /* Frameworks */,
+				4120B83221B2F3DF003105A3 /* Resources */,
+				4120B86B21B2F3DF003105A3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4120B84721B2F3DF003105A3 /* PBXTargetDependency */,
+			);
+			name = "driftwatch iOS";
+			productName = "driftwatch iOS";
+			productReference = 4120B83421B2F3DF003105A3 /* driftwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4120B84321B2F3DF003105A3 /* driftwatch watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4120B86821B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch watchOS App" */;
+			buildPhases = (
+				4120B84221B2F3DF003105A3 /* Resources */,
+				4120B86721B2F3DF003105A3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4120B85421B2F3DF003105A3 /* PBXTargetDependency */,
+			);
+			name = "driftwatch watchOS App";
+			productName = "driftwatch watchOS App";
+			productReference = 4120B84421B2F3DF003105A3 /* driftwatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4120B85021B2F3DF003105A3 /* driftwatch watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4120B86421B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch watchOS App Extension" */;
+			buildPhases = (
+				4120B84D21B2F3DF003105A3 /* Sources */,
+				4120B84E21B2F3DF003105A3 /* Frameworks */,
+				4120B84F21B2F3DF003105A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "driftwatch watchOS App Extension";
+			productName = "driftwatch watchOS App Extension";
+			productReference = 4120B85121B2F3DF003105A3 /* driftwatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4120B82721B2F3DE003105A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ryan Wise";
+				TargetAttributes = {
+					4120B83321B2F3DF003105A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4120B84321B2F3DF003105A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4120B85021B2F3DF003105A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4120B82A21B2F3DE003105A3 /* Build configuration list for PBXProject "driftwatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4120B82621B2F3DE003105A3;
+			productRefGroup = 4120B83521B2F3DF003105A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4120B83321B2F3DF003105A3 /* driftwatch iOS */,
+				4120B84321B2F3DF003105A3 /* driftwatch watchOS App */,
+				4120B85021B2F3DF003105A3 /* driftwatch watchOS App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4120B83221B2F3DF003105A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4120B85C21B2F3DF003105A3 /* GameScene.sks in Resources */,
+				4120B83D21B2F3DF003105A3 /* Main.storyboard in Resources */,
+				4120B85B21B2F3DF003105A3 /* Actions.sks in Resources */,
+				4120B84021B2F3DF003105A3 /* LaunchScreen.storyboard in Resources */,
+				4120B86021B2F3DF003105A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4120B84221B2F3DF003105A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4120B86121B2F3DF003105A3 /* Assets.xcassets in Resources */,
+				4120B84B21B2F3DF003105A3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4120B84F21B2F3DF003105A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4120B85D21B2F3DF003105A3 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4120B83021B2F3DF003105A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4120B85E21B2F3DF003105A3 /* GameScene.swift in Sources */,
+				4120B83A21B2F3DF003105A3 /* GameViewController.swift in Sources */,
+				4120B83821B2F3DF003105A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4120B84D21B2F3DF003105A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4120B85F21B2F3DF003105A3 /* GameScene.swift in Sources */,
+				4120B85921B2F3DF003105A3 /* ExtensionDelegate.swift in Sources */,
+				4120B85721B2F3DF003105A3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4120B84721B2F3DF003105A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4120B84321B2F3DF003105A3 /* driftwatch watchOS App */;
+			targetProxy = 4120B84621B2F3DF003105A3 /* PBXContainerItemProxy */;
+		};
+		4120B85421B2F3DF003105A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4120B85021B2F3DF003105A3 /* driftwatch watchOS App Extension */;
+			targetProxy = 4120B85321B2F3DF003105A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4120B83B21B2F3DF003105A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4120B83C21B2F3DF003105A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4120B83E21B2F3DF003105A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4120B83F21B2F3DF003105A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4120B84921B2F3DF003105A3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4120B84A21B2F3DF003105A3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4120B86221B2F3DF003105A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4120B86321B2F3DF003105A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4120B86521B2F3DF003105A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				INFOPLIST_FILE = "driftwatch watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "driftwatch Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4120B86621B2F3DF003105A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				INFOPLIST_FILE = "driftwatch watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "driftwatch Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		4120B86921B2F3DF003105A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				IBSC_MODULE = driftwatch_Extension;
+				INFOPLIST_FILE = "driftwatch watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch.watchkitapp;
+				PRODUCT_NAME = driftwatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4120B86A21B2F3DF003105A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				IBSC_MODULE = driftwatch_Extension;
+				INFOPLIST_FILE = "driftwatch watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch.watchkitapp;
+				PRODUCT_NAME = driftwatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		4120B86D21B2F3DF003105A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				INFOPLIST_FILE = "driftwatch iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch;
+				PRODUCT_NAME = driftwatch;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4120B86E21B2F3DF003105A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEM3CQ29Y8;
+				INFOPLIST_FILE = "driftwatch iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanwise.driftwatch;
+				PRODUCT_NAME = driftwatch;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4120B82A21B2F3DE003105A3 /* Build configuration list for PBXProject "driftwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4120B86221B2F3DF003105A3 /* Debug */,
+				4120B86321B2F3DF003105A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4120B86421B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4120B86521B2F3DF003105A3 /* Debug */,
+				4120B86621B2F3DF003105A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4120B86821B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4120B86921B2F3DF003105A3 /* Debug */,
+				4120B86A21B2F3DF003105A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4120B86C21B2F3DF003105A3 /* Build configuration list for PBXNativeTarget "driftwatch iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4120B86D21B2F3DF003105A3 /* Debug */,
+				4120B86E21B2F3DF003105A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4120B82721B2F3DE003105A3 /* Project object */;
+}
