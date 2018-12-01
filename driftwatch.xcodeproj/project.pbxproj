@@ -21,8 +21,9 @@
 		4120B85D21B2F3DF003105A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82D21B2F3DE003105A3 /* GameScene.sks */; };
 		4120B85E21B2F3DF003105A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B82E21B2F3DE003105A3 /* GameScene.swift */; };
 		4120B85F21B2F3DF003105A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120B82E21B2F3DE003105A3 /* GameScene.swift */; };
-		4120B86021B2F3DF003105A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82F21B2F3DF003105A3 /* Assets.xcassets */; };
-		4120B86121B2F3DF003105A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120B82F21B2F3DF003105A3 /* Assets.xcassets */; };
+		414824FB21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
+		414824FC21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
+		414824FD21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +72,6 @@
 		4120B82C21B2F3DE003105A3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4120B82D21B2F3DE003105A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4120B82E21B2F3DE003105A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		4120B82F21B2F3DF003105A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4120B83421B2F3DF003105A3 /* driftwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = driftwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4120B83721B2F3DF003105A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4120B83921B2F3DF003105A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +85,7 @@
 		4120B85621B2F3DF003105A3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		4120B85821B2F3DF003105A3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		4120B85A21B2F3DF003105A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414824FA21B30799008474FA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "/Users/ryanwise/Documents/Development/driftwatch/driftwatch/driftwatch Shared/Media.xcassets"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +123,7 @@
 				4120B82C21B2F3DE003105A3 /* Actions.sks */,
 				4120B82D21B2F3DE003105A3 /* GameScene.sks */,
 				4120B82E21B2F3DE003105A3 /* GameScene.swift */,
-				4120B82F21B2F3DF003105A3 /* Assets.xcassets */,
+				414824FA21B30799008474FA /* Media.xcassets */,
 			);
 			path = "driftwatch Shared";
 			sourceTree = "<group>";
@@ -270,11 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414824FB21B30799008474FA /* Media.xcassets in Resources */,
 				4120B85C21B2F3DF003105A3 /* GameScene.sks in Resources */,
 				4120B83D21B2F3DF003105A3 /* Main.storyboard in Resources */,
 				4120B85B21B2F3DF003105A3 /* Actions.sks in Resources */,
 				4120B84021B2F3DF003105A3 /* LaunchScreen.storyboard in Resources */,
-				4120B86021B2F3DF003105A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4120B86121B2F3DF003105A3 /* Assets.xcassets in Resources */,
+				414824FC21B30799008474FA /* Media.xcassets in Resources */,
 				4120B84B21B2F3DF003105A3 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414824FD21B30799008474FA /* Media.xcassets in Resources */,
 				4120B85D21B2F3DF003105A3 /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
