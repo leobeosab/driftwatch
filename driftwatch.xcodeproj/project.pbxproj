@@ -24,6 +24,8 @@
 		414824FB21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
 		414824FC21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
 		414824FD21B30799008474FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414824FA21B30799008474FA /* Media.xcassets */; };
+		4148250021B320E2008474FA /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414824FF21B320E2008474FA /* car.swift */; };
+		4148250121B320E2008474FA /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414824FF21B320E2008474FA /* car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,7 @@
 		4120B85821B2F3DF003105A3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		4120B85A21B2F3DF003105A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414824FA21B30799008474FA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "/Users/ryanwise/Documents/Development/driftwatch/driftwatch/driftwatch Shared/Media.xcassets"; sourceTree = "<absolute>"; };
+		414824FF21B320E2008474FA /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 		4120B82B21B2F3DE003105A3 /* driftwatch Shared */ = {
 			isa = PBXGroup;
 			children = (
+				414824FE21B320A0008474FA /* Car Logic */,
 				4120B82C21B2F3DE003105A3 /* Actions.sks */,
 				4120B82D21B2F3DE003105A3 /* GameScene.sks */,
 				4120B82E21B2F3DE003105A3 /* GameScene.swift */,
@@ -167,6 +171,14 @@
 				4120B85A21B2F3DF003105A3 /* Info.plist */,
 			);
 			path = "driftwatch watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		414824FE21B320A0008474FA /* Car Logic */ = {
+			isa = PBXGroup;
+			children = (
+				414824FF21B320E2008474FA /* car.swift */,
+			);
+			path = "Car Logic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +318,7 @@
 			files = (
 				4120B85E21B2F3DF003105A3 /* GameScene.swift in Sources */,
 				4120B83A21B2F3DF003105A3 /* GameViewController.swift in Sources */,
+				4148250021B320E2008474FA /* car.swift in Sources */,
 				4120B83821B2F3DF003105A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +329,7 @@
 			files = (
 				4120B85F21B2F3DF003105A3 /* GameScene.swift in Sources */,
 				4120B85921B2F3DF003105A3 /* ExtensionDelegate.swift in Sources */,
+				4148250121B320E2008474FA /* car.swift in Sources */,
 				4120B85721B2F3DF003105A3 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

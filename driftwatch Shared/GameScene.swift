@@ -7,13 +7,13 @@
 //
 
 import SpriteKit
+import WatchKit
+import Foundation
 
 class GameScene: SKScene {
     
     
-    fileprivate var label : SKLabelNode?
-    fileprivate var spinnyNode : SKShapeNode?
-
+    fileprivate var car : SKSpriteNode?
     
     class func newGameScene() -> GameScene {
         // Load 'GameScene.sks' as an SKScene.
@@ -29,28 +29,24 @@ class GameScene: SKScene {
     }
     
     func setUpScene() {
-        // Get label node from scene and store it for use later
-        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
-        if let label = self.label {
-            label.alpha = 0.0
-            label.run(SKAction.fadeIn(withDuration: 2.0))
+        self.car = self.childNode(withName: "//car") as? SKSpriteNode
+        if let car = self.car {
+            car.alpha = 0.0
+            car.run(SKAction.fadeIn(withDuration: 2.0))
         }
     }
     
     override func sceneDidLoad() {
         self.setUpScene()
     }
-
-    func makeSpinny(at pos: CGPoint, color: SKColor) {
-        if let spinny = self.spinnyNode?.copy() as! SKShapeNode? {
-            spinny.position = pos
-            spinny.strokeColor = color
-            self.addChild(spinny)
-        }
-    }
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+    }
+    
+    func crownRotated(rotationalDelta : Double) {
+        self.car?.zRotation += CGFloat(rotationalDelta * 3.0)
+        print(.pi / rotationalDelta)
     }
 }
 
